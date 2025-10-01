@@ -124,7 +124,9 @@ class UnicodeHoverProvider implements vscode.HoverProvider {
     } catch (_) {
       // 無効なUnicodeコードポイント
       const markdown = new vscode.MarkdownString()
-      markdown.appendMarkdown(`**Invalid Unicode:** U+$unicodeValue.toString(16).toUpperCase()`)
+      markdown.appendMarkdown(
+        `**不正なUnicode:** U+${unicodeValue.toString(16).toUpperCase().padStart(4, "0")} (Decimal: ${unicodeValue})`,
+      )
       return new vscode.Hover(markdown, range)
     }
   }
@@ -189,7 +191,7 @@ class UnicodeHoverProvider implements vscode.HoverProvider {
       await vscode.workspace
         .getConfiguration("unicodeHoverPreview")
         .update("fontFamily", selectedFont, vscode.ConfigurationTarget.Global)
-      vscode.window.showInformationMessage(`Unicode preview font set to: $selectedFont`)
+      vscode.window.showInformationMessage(`Unicode preview font set to: ${selectedFont}`)
     }
   }
 }

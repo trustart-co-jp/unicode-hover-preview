@@ -2,6 +2,6 @@
   "version": "0.2",
   "language": "en",
   "dictionaries": ["typescript", "node", "npm", "fonts"],
-  "ignorePaths": ["node_modules/**", "conf.vscode/**", "*.log", "*.svg", "pnpm-lock.yaml"],
+  "ignorePaths": ["node_modules/**", ".vscode/**", "*.log", "*.svg", "pnpm-lock.yaml"],
   "words": ["trustart", "symbl"]
 }
