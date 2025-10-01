@@ -9,6 +9,10 @@
     "npm": ">=10.0.0",
     "pnpm": ">=10.17.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trustart-co-jp/unicode-hover-preview"
+  },
   "categories": ["Other"],
   "activationEvents": ["onLanguage:*"],
   "main": "./out/extension.js",
