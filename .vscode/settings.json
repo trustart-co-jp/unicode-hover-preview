@@ -1,6 +1,6 @@
 {
   "biome.enabled": true,
-  "biome.configurationPath": "biome.json",
+  "biome.configurationPath": "${workspaceFolder}/biome.json",
   "biome.lsp.bin": "${workspaceFolder}/node_modules/.bin/biome",
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
@@ -15,5 +15,11 @@
   "breadcrumbs.enabled": true,
   "editor.renderLineHighlight": "all",
   "editor.bracketPairColorization.enabled": true,
-  "npm.packageManager": "pnpm"
+  "npm.packageManager": "pnpm",
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
 }

@@ -9,12 +9,8 @@
     "npm": ">=10.0.0",
     "pnpm": ">=10.17.0"
   },
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [
-    "onLanguage:*"
-  ],
+  "categories": ["Other"],
+  "activationEvents": ["onLanguage:*"],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
