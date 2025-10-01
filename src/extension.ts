@@ -181,7 +181,7 @@ class UnicodeHoverProvider implements vscode.HoverProvider {
     ]
 
     const selectedFont = await vscode.window.showQuickPick(fonts, {
-      placeHolder: `Current font: $currentFont`,
+      placeHolder: `Current font: ${currentFont}`,
       title: "Select Unicode Preview Font",
     })
 

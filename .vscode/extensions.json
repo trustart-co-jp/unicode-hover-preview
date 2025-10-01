@@ -1,22 +1,22 @@
 {
-    "recommendations": [
-        "biomejs.biome",
-        "streetsidesoftware.code-spell-checker",
-        "github.copilot-chat",
-        "github.vscode-pull-request-github",
-        "github.copilot",
-        "github.vscode-github-actions",
-        "aaron-bond.better-comments",
-        "usernamehw.errorlens",
-        "mhutchie.git-graph",
-        "donjayamanne.githistory",
-        "eamodio.gitlens",
-        "ms-ceintl.vscode-language-pack-ja",
-        "yzhang.markdown-all-in-one",
-        "shd101wyy.markdown-preview-enhanced",
-        "bierner.markdown-mermaid",
-        "pkief.material-icon-theme",
-        "gruntfuggly.todo-tree",
-        "jacano.vscode-pnpm"
-    ]
+  "recommendations": [
+    "biomejs.biome",
+    "streetsidesoftware.code-spell-checker",
+    "github.copilot-chat",
+    "github.vscode-pull-request-github",
+    "github.copilot",
+    "github.vscode-github-actions",
+    "aaron-bond.better-comments",
+    "usernamehw.errorlens",
+    "mhutchie.git-graph",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "ms-ceintl.vscode-language-pack-ja",
+    "yzhang.markdown-all-in-one",
+    "shd101wyy.markdown-preview-enhanced",
+    "bierner.markdown-mermaid",
+    "pkief.material-icon-theme",
+    "gruntfuggly.todo-tree",
+    "jacano.vscode-pnpm"
+  ]
 }
