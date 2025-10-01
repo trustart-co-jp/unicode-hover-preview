@@ -32,8 +32,8 @@ VSCode拡張機能：Unicode文字列にマウスオーバーすると、指定�
 ## 開発・ビルド
 
 ```bash
-npm install
-npm run compile
+pnpm i
+pnpm run compile
 ```
 
 ## インストール

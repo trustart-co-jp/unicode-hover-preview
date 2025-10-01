@@ -62,9 +62,5 @@
     "@types/vscode": "^1.74.0",
     "cspell": "9.2.1",
     "typescript": "5.9.3"
-  },
-  "overrides": {
-    "@types/node": "^22",
-    "typescript": "5.9.2"
   }
 }
