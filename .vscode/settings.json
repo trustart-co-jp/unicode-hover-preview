@@ -1,0 +1,25 @@
+{
+  "biome.enabled": true,
+  "biome.configurationPath": "${workspaceFolder}/biome.json",
+  "biome.lsp.bin": "${workspaceFolder}/node_modules/.bin/biome",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.autoIndent": "none",
+  "editor.renderControlCharacters": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": true,
+  "editor.renderLineHighlight": "all",
+  "editor.bracketPairColorization.enabled": true,
+  "npm.packageManager": "pnpm",
+  "[jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
+}
