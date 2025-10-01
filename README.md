@@ -41,6 +41,7 @@ pnpm run compile
 1. プロジェクトをビルド
 2. F5キーでデバッグ実行
 3. またはVSCEでパッケージング
+   1. パッケージングは `npx vsce package` で行えます
 
 ## 例
 
